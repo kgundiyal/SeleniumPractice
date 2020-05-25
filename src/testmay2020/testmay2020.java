@@ -14,7 +14,7 @@ public class testmay2020
 		System.setProperty("webdriver.chrome.driver","/Users/kgundiyal/Downloads/chromedriver 2");
 		WebDriver driver=new ChromeDriver();
 		driver.get("https://www.facebook.com");
-		
+		driver.quit();
 	}
 
 }
