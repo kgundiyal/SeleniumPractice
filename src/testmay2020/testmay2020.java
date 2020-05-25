@@ -13,8 +13,10 @@ public class testmay2020
 		//System.out.println("Hello world ");
 		System.setProperty("webdriver.chrome.driver","/Users/kgundiyal/Downloads/chromedriver 2");
 		WebDriver driver=new ChromeDriver();
-		driver.get("https://www.google.com");
-		
+		driver.get("https://www.facebook.com");
+		driver.quit();
+
+
 	}
 
 }
